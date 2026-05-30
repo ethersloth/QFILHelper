@@ -1,0 +1,11 @@
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.vbproj.AssemblyReference.cache
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFIL_Helper.Resources.resources
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.vbproj.GenerateResource.cache
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.vbproj.CoreCompileInputs.cache
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\bin\Debug\QFILHelper.exe.config
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\bin\Debug\QFILHelper.exe
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\bin\Debug\QFILHelper.pdb
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\bin\Debug\QFILHelper.xml
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.exe
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.xml
+C:\Users\rambo\OneDrive\Desktop\workspace\QFILHelper\QFIL Helper\obj\Debug\QFILHelper.pdb

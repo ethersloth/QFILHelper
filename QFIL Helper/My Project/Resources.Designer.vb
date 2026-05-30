@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -162,7 +162,7 @@ Namespace My.Resources
         '''  Looks up a localized string similar to 	@-Full backup (LUN mode)
         '''	@-Full backup (partitions)
         '''	@-Quick backup (LUNs)
-        '''	@-Quick backup (Partitions)
+        '''	@-Quick backup (partitions)
         '''	@-Userdata backup
         '''	@-Selective erase
         '''	@-Detect connected COM ports
@@ -223,7 +223,7 @@ Namespace My.Resources
         '''Error: Failed to apply NTFS compression to the backup folder! Aborting...
         '''WARNING: You&apos;re about to backup the USERDATA partiton!
         '''This process uses NTFS compression and requires a powerful PC and fast USB port!!!
-        '''Due to the size of userdata partiton this process can last very long time!!!
+        '''Due to the size of userdata partiton this process can take very long time!!!
         '''Are you absolutly sure you want to procceed?! (Y|N)
         '''S-Skip | A-Abort
         '''Error: fh_loader is unable  [rest of string was truncated]&quot;;.
@@ -250,6 +250,42 @@ Namespace My.Resources
         Friend ReadOnly Property msg_ru() As String
             Get
                 Return ResourceManager.GetString("msg_ru", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized resource of type System.String.
+        '''</summary>
+        Friend ReadOnly Property msg_zh() As String
+            Get
+                Return ResourceManager.GetString("msg_zh", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized resource of type System.String.
+        '''</summary>
+        Friend ReadOnly Property msg_ja() As String
+            Get
+                Return ResourceManager.GetString("msg_ja", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized resource of type System.String.
+        '''</summary>
+        Friend ReadOnly Property menu_zh() As String
+            Get
+                Return ResourceManager.GetString("menu_zh", resourceCulture)
+            End Get
+        End Property
+
+        '''<summary>
+        '''  Looks up a localized resource of type System.String.
+        '''</summary>
+        Friend ReadOnly Property menu_ja() As String
+            Get
+                Return ResourceManager.GetString("menu_ja", resourceCulture)
             End Get
         End Property
     End Module
