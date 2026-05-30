@@ -136,8 +136,22 @@ Public Class clsBase
 
             sPortName = oEntity.Properties.Item("Name").Value
 
-            If sPortName = "" Then Continue For
-            If sPortName.IndexOf("Qualcomm HS-USB QDLoader 9008") > -1 Then Return True
+            If String.IsNullOrEmpty(sPortName) Then Continue For
+
+            ' Original driver support
+            If sPortName.IndexOf("Qualcomm HS-USB QDLoader 9008", StringComparison.OrdinalIgnoreCase) > -1 Then
+                Return True
+            End If
+
+            ' Newer Qualcomm driver support
+            If sPortName.IndexOf("Qualcomm USB QDLoader", StringComparison.OrdinalIgnoreCase) > -1 Then
+                Return True
+            End If
+
+            ' Generic fallback for future Qualcomm QDLoader variants
+            If sPortName.IndexOf("QDLoader", StringComparison.OrdinalIgnoreCase) > -1 Then
+                Return True
+            End If
 
         Next
 
